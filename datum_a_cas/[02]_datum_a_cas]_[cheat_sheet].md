@@ -1,6 +1,11 @@
-# import datetime
-`from datetime import date, time, datetime, timedelta, tzinfo`
-# Aktualní datum a čas
+# Tahák na datum a čas v Pythonu
+
+## import datetime
+```
+from datetime import date, time, datetime, timedelta, tzinfo
+```
+
+## Aktuání datum a čas
 ```
 aktualni_datum_a_cas = datetime.now()
 print(aktualni_datum_a_cas) # 2022-04-22 22:35:55.681454
@@ -8,28 +13,34 @@ print(aktualni_datum_a_cas) # 2022-04-22 22:35:55.681454
 ```
 ```
 aktualni_datum = date.today()
-print(aktualni_datum) # 2022-04-22
+print(aktualni_datum) 
 
+# 2022-04-22
 ```
-# Vytvoř datum
+## Vytvoř datum
 ```
 datum = datetime(2022, 4, 25, 18, 0)
-print(datum) # 2022-04-25 18:00:00
+print(datum) 
 
+# 2022-04-25 18:00:00
 ```
-# Den v tydnu
+## Den v týdnu
 ```
 datum.weekday() # 0 -6
 datum.isoweekday() # 1 -7
+```
+
+## Z datumu na řetězec
+date_object.strftime(format)
+```
+datum.strftime("%d. %m. %Y, %H:%M")
+```
+## Z řetězce na datum
+datetime.strptime(datetime_string, format)
 
 ```
-# Z datumu na řetězec
-# date_object.strftime(format)
-`datum.strftime("%d. %m. %Y, %H:%M")`
-
-# Z řetězce na datum
-# datetime.strptime(datetime_string, format)
-`datetime.strptime("1. 1. 2000", "%d. %m. %Y")`
+datetime.strptime("1. 1. 2000", "%d. %m. %Y")
+```
 
 ## strftime() and strptime() Format Codes
 
