@@ -1,6 +1,6 @@
-# Tahák pro lekce Agregace a spojovani v Pandas
+# Tahák pro lekci Agregace a spojovaní v Pandas
 
-## import pandas
+## Import pandas
 ```
 import pandas
 ```
