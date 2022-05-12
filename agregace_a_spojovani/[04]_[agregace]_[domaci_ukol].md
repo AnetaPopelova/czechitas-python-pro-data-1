@@ -31,7 +31,7 @@ open("platy_2021_02.csv", "wb").write(r.content)
 * V rámci úspory se IT oddělení rozhodlo prověřit licence přidělené zaměstnancům, kteří ve firmě již nepracují. Vytvoř samostatnou tabulku, která obsahuje jména zaměstnanců, kteří ve firmě již nepracují. Tabulku ulož do souboru CSV.
 
 ## Projekty
-Pokračuj ve své práci pro softwarovou firmu. Ze souboru vykazy.csv načti informace o výkazech na projekty pro jednoho vybraného zákazníka.
+Pokračuj ve své práci pro softwarovou firmu. Ze souboru [vykazy.csv](https://raw.githubusercontent.com/AnetaPopelova/czechitas-python-pro-data-1/main/agregace_a_spojovani/soubory_pro_domaci_ukol/vykazy.csv) načti informace o výkazech na projekty pro jednoho vybraného zákazníka.
 
 ```
 import requests
