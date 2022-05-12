@@ -1,4 +1,4 @@
-# Domácí úkol k lekce Spojování a agregace v Pandas
+# Domácí úkol k lekci Agregace a spojování v Pandas
 
 ## Zaměstnanci
 
