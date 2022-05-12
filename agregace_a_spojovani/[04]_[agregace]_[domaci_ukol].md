@@ -26,9 +26,13 @@ open("platy_2021_02.csv", "wb").write(r.content)
 * Porovnej rozměry tabulek před spojením a po spojení. Pokud nemá některý zaměstnanec plat za únor, znamená to, že v naší firmě již nepracuje.
 * Spočti průměrný plat zaměstnanců v jednotlivých kancelářích.
 
+
 **Dobrovolný doplněk**
+
 * Ulož do proměnné počet zaměstnaců, kteří v naší firmě již nepracují.
 * V rámci úspory se IT oddělení rozhodlo prověřit licence přidělené zaměstnancům, kteří ve firmě již nepracují. Vytvoř samostatnou tabulku, která obsahuje jména zaměstnanců, kteří ve firmě již nepracují. Tabulku ulož do souboru CSV.
+
+
 
 ## Projekty
 Pokračuj ve své práci pro softwarovou firmu. Ze souboru [vykazy.csv](https://raw.githubusercontent.com/AnetaPopelova/czechitas-python-pro-data-1/main/agregace_a_spojovani/soubory_pro_domaci_ukol/vykazy.csv) načti informace o výkazech na projekty pro jednoho vybraného zákazníka.
@@ -44,4 +48,7 @@ open("vykazy.csv", "wb").write(r.content)
 * Proveď agregaci a zjisti celkový počet vykázaných hodin za jednotlivé projekty.
 
 **Dobrovolný doplněk**
-Propoj tabulku s výkazy s tabulkou se zaměstnanci, kterou jsi vytvořil(a) v předchozím cvičení. Následně proveď statistiku vykázaných hodin za jednotlivé kanceláře, tj. spočítej celkový počet hodin vykázaný zaměstnanci jednotlivých kanceláří na projekty daného zákazníka.
+
+Propoj tabulku s výkazy s tabulkou se zaměstnanci, kterou jsi vytvořil(a) v předchozím cvičení. 
+
+Následně proveď statistiku vykázaných hodin za jednotlivé kanceláře, tj. spočítej celkový počet hodin vykázaný zaměstnanci jednotlivých kanceláří na projekty daného zákazníka.
