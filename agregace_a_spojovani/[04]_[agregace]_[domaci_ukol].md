@@ -2,7 +2,7 @@
 
 ## Zaměstnanci
 
-Uvažuj, že zpracováváš analýzu pro softwarovou firmu. Firma má kanceláře v Praze, Plzni a Liberci. Seznam zaměstnanců pro jednotlivé kanceláře najdeš v souborech zam_praha.csv, zam_plzeň.csv a zam_liberec.csv.
+Uvažuj, že zpracováváš analýzu pro softwarovou firmu. Firma má kanceláře v Praze, Plzni a Liberci. Seznam zaměstnanců pro jednotlivé kanceláře najdeš v souborech [zam_praha.csv](https://raw.githubusercontent.com/AnetaPopelova/czechitas-python-pro-data-1/main/agregace_a_spojovani/soubory_pro_domaci_ukol/zam_praha.csv), [zam_plzeň.csv](https://raw.githubusercontent.com/AnetaPopelova/czechitas-python-pro-data-1/main/agregace_a_spojovani/soubory_pro_domaci_ukol/zam_plzeň.csv) a [zam_liberec.csv](https://raw.githubusercontent.com/AnetaPopelova/czechitas-python-pro-data-1/main/agregace_a_spojovani/soubory_pro_domaci_ukol/zam_liberec.csv).
 
 ```
 import requests
@@ -22,7 +22,7 @@ open("platy_2021_02.csv", "wb").write(r.content)
 
 * Načti data o zaměstnancích z CSV souborů do tabulek (DataFrame). Ke každé tabulce přidej nový sloupec mesto, které bude obsahovat informaci o tom, ve kterém městě zaměstnanec pracuje.
 * Vytvoř novou tabulku zamestnanci a ulož do ní informace o všech zaměstnancích.
-* Ze souboru platy_2021_02.csv načti platy zaměstnanců za únor 2021. Propoj tabulku (operace join) s platy a tabulku se zaměstnanci pomocí sloupce cislo_zamestnance.
+* Ze souboru [platy_2021_02.csv](https://raw.githubusercontent.com/AnetaPopelova/czechitas-python-pro-data-1/main/agregace_a_spojovani/soubory_pro_domaci_ukol/platy_2021_02.csv) načti platy zaměstnanců za únor 2021. Propoj tabulku (operace join) s platy a tabulku se zaměstnanci pomocí sloupce cislo_zamestnance.
 * Porovnej rozměry tabulek před spojením a po spojení. Pokud nemá některý zaměstnanec plat za únor, znamená to, že v naší firmě již nepracuje.
 * Spočti průměrný plat zaměstnanců v jednotlivých kancelářích.
 
