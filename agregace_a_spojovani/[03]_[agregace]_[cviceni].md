@@ -19,16 +19,16 @@ První set už známe z minulé lekce. Druhé dva sety obsahují seznam student�
 
 Proveď následující úkoly a zodpověz předložené otázky.
 
-1. Načti dva datové sety studentů do oddělených pandas DataFrame a pomocí funkce concat je spoj do jednoho setu.
+a. Načti dva datové sety studentů do oddělených pandas DataFrame a pomocí funkce concat je spoj do jednoho setu.
 
-2. Pokud studentovi chybí ročník, znamená to, že již nestuduje. Pokud mu chybí číslo skupiny, znamená to, že jde o dálkového studenta. Kolik studentů v datovém setu již nestuduje a kolik jsou dálkoví studenti?
+b. Pokud studentovi chybí ročník, znamená to, že již nestuduje. Pokud mu chybí číslo skupiny, znamená to, že jde o dálkového studenta. Kolik studentů v datovém setu již nestuduje a kolik jsou dálkoví studenti?
 
-3. Vyčisti data od studentů, kteří nestudují nebo studují jen dálkově. Nadále budeme pracovat pouze s prezenčními studenty.
+c. Vyčisti data od studentů, kteří nestudují nebo studují jen dálkově. Nadále budeme pracovat pouze s prezenčními studenty.
 
-4. Zjisti, kolik prezenčních studentů je v každém z oborů.
+d. Zjisti, kolik prezenčních studentů je v každém z oborů.
 
-5. Zjisti průměrný prospěch studentů v každém oboru.
+e. Zjisti průměrný prospěch studentů v každém oboru.
 
-6. Načti datový set s křestními jmény. Proveď join s tabulkou studentů tak, abychom věděli pohlaví jednotlivých studentů.
+f. Načti datový set s křestními jmény. Proveď join s tabulkou studentů tak, abychom věděli pohlaví jednotlivých studentů.
 
-7. Zjisti, zda na naší fakultě studují IT spíše ženy nebo spíše muži.
+g. Zjisti, zda na naší fakultě studují IT spíše ženy nebo spíše muži.
